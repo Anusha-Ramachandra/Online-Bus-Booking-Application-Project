@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: rgb(140, 140, 196); /* Lavender Blue */
+  }
+  
+  p {
+    color: rgb(46, 119, 142); /* Light Blue */
+  }
+  
+  /* Bus Animation */
+  .bus-container {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .bus-svg {
+    width: 100px;
+    animation: moveBus 5s linear infinite;
+  }
+  
+  @keyframes moveBus {
+    0% {
+      transform: translateX(-100px);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+  }
+  
